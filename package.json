@@ -1,0 +1,17 @@
+{
+  "name": "covid19ph-data-parser",
+  "version": "1.0.0",
+  "description": "Outputs the data from https://covid19ph.com/ to a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0"
+  }
+}
